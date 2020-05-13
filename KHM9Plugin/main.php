@@ -23,7 +23,7 @@ class main extends PluginBase {
     public function onCommand(CommandSender $sender, Command $cmd, String $Label, array $args): bool{
         if($cmd->getName()){
             switch($args(count) === 0){
-              case "khm9":
+              case "KHM9":
                 $player->sendMessage(C::GREEN . "This is an Example");
                 $player->addTitle(C::GREEN . "Example" . "Plugin");
                 break;
