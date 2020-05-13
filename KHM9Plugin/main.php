@@ -1,6 +1,6 @@
 <?php
 
-namespace ExamplePlugin;
+namespace KHM9Plugin;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat as C;
@@ -23,7 +23,7 @@ class main extends PluginBase {
     public function onCommand(CommandSender $sender, Command $cmd, String $Label, array $args): bool{
         if($cmd->getName()){
             switch($args(count) === 0){
-              case "example":
+              case "khm9":
                 $player->sendMessage(C::GREEN . "This is an Example");
                 $player->addTitle(C::GREEN . "Example" . "Plugin");
                 break;
