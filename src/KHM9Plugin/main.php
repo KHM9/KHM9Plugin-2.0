@@ -7,7 +7,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 
-class main extends PluginBase implements Listener{
+class main extends PluginBase {
 
 	public function onEnable(){
 		$this->getLogger()->info("Hello World!");
