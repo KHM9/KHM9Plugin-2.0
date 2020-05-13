@@ -1,0 +1,16 @@
+name: KHM9Plugin2
+#The API of the latest PMMP.
+api:
+ - 3.3 0
+ - 3.0.0
+ - 4.0.0
+#Where the main is at.
+main: KHM9Plugin\main
+version: 0.2.0
+description: A very useless plugin XD
+author: KHM9
+
+#the Commands.
+commands:
+  KHM9:
+    description: KHM9 Plugin Command
