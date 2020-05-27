@@ -12,5 +12,5 @@ author: KHM9
 
 #the Commands.
 commands:
-  KHM9:
+  khm9:
     description: KHM9 Plugin Command
