@@ -15,7 +15,7 @@ class main extends PluginBase {
 
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
-			case "KHM9":
+			case "khm9":
 				$sender->sendMessage("WOW!! KHM9 MADE A PLUGIN YOWZERS! https://github.com/KHM9/KHM9Plugin-2.0");
 				return true;
 			default:
